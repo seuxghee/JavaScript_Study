@@ -132,3 +132,11 @@ console.log(numbers.find((x) => x % 2 === 0 ));
 // findIndex() - 인덱스만 반환
 console.log(numbers.findIndex((x) => x % 2 === 0 ));
 
+//reduce
+console.log(numbers.reduce((p,n) => p+n, 0));
+
+// reduce() 퀴즈
+// reduce() 함수를 사용해서 iveMembers 변수에 있는 모든 스트링 값들의
+// 길이를 더해서 반환하라.
+// 참고로 string의 길이는 .length를 이용해서 구할 수 있다.
+console.log(iveMembers.reduce((p, n) => p + n.length, 0)) 
